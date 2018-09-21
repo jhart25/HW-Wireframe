@@ -12,7 +12,7 @@ body {
 
 header, nav, section, aside, footer {
     background: #ebebeb;
-    margin: 30px;
+    margin: 10px;
     padding: 30px;
 }
 
@@ -20,6 +20,7 @@ article {
     color: #ebebeb;
     background: #777;
     height: 100%;
+    padding: 5px;
 }
 h1, p {
     color: #777;
@@ -33,19 +34,25 @@ section {
     margin: 10px;
     padding: 10px;
 }
-.content:after {
-    clear: both;
-}
 aside {
     float: right;
     width: 200px;
+    padding: 10px;
 }
 .clearfix {
     overflow: auto;
 }
 .content {
+    width: 960px;
     display: inline-block;
+    display: flex;
     margin: 5px;
+}
+.content > aside {
+    flex:1;
+}
+.content:after {
+    clear: both;
 }
 .articleheader {
     margin: 20px;
