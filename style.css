@@ -50,6 +50,8 @@ aside {
     display: inline-block;
     display: flex;
     margin: 5px;
+    position: relative;
+    left: -5px;
 }
 .content > aside {
     flex:1;
