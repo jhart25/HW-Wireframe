@@ -11,14 +11,14 @@ body {
 }
 
 header, nav, section, aside, footer {
-    background: #ebebeb;
+    background-color: #ebebeb;
     margin: 10px;
     padding: 30px;
 }
 
 article {
     color: #ebebeb;
-    background: #777;
+    background-color: #777;
     height: 100%;
     padding: 5px;
 }
@@ -56,10 +56,6 @@ aside {
 }
 .content:after {
     clear: both;
-}
-.articleheader {
-    margin: 20px;
-    padding: 20px;
 }
 .secheader {
     margin: 10px;
